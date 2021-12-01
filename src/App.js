@@ -4,7 +4,6 @@ import Routes from "./routes";
 export const LoginContext = createContext([false, () => {}]);
 export const IsLoggedIn = createContext([false, () => {}]);
 
-// export const SERVER = "https://guvi-hackathon2-anand.herokuapp.com";
 export const SERVER = "http://localhost:5500";
 
 function App() {
